@@ -3,6 +3,11 @@ spring:
     name: ArksCycle
   main:
     web-application-type: none
+  config:
+    import: configs/cloud-music.yml
+task:
+  scheduled:
+    cron: 0 0 4 * * ?
 concat:
   author: ArcSurge
   version: v0.0.1

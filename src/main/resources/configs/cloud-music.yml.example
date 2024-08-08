@@ -1,0 +1,12 @@
+cloud-music:
+  # 网易云音乐配置
+  # 是否开启: <false 关闭> | <true 开启>
+  enabled: false
+  # 填写网易云音乐cookie, cookie中必须有MUSIC_U
+  account:
+    name: XXX
+    cookie: MUSIC_U=XXXXX
+  # 定时任务时间配置
+  scheduled:
+    # cron表达式可以通过 https://cron.qqe2.com/ 生成
+    cron: 0 0 4 * * ?
