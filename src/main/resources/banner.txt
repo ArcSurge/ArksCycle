@@ -1,0 +1,20 @@
+   ,---,                      ,-.             ,----..                       ,--,
+  '  .' \                 ,--/ /|            /   /   \                    ,--.'|
+ /  ;    '.      __  ,-.,--. :/ |           |   :     :                   |  | :
+:  :       \   ,' ,'/ /|:  : ' /  .--.--.   .   |  ;. /                   :  : '
+:  |   /\   \  '  | |' ||  '  /  /  /    '  .   ; /--`      .--,   ,---.  |  ' |      ,---.
+|  :  ' ;.   : |  |   ,''  |  : |  :  /`./  ;   | ;       /_ ./|  /     \ '  | |     /     \
+|  |  ;/  \   \'  :  /  |  |   \|  :  ;_    |   : |    , ' , ' : /    / ' |  | :    /    /  |
+'  :  | \  \ ,'|  | '   '  : |. \\  \    `. .   | '___/___/ \: |.    ' /  '  : |__ .    ' / |
+|  |  '  '--'  ;  : |   |  | ' \ \`----.   \'   ; : .'|.  \  ' |'   ; :__ |  | '.'|'   ;   /|
+|  :  :        |  , ;   '  : |--'/  /`--'  /'   | '/  : \  ;   :'   | '.'|;  :    ;'   |  / |
+|  | ,'         ---'    ;  |,'  '--'.     / |   :    /   \  \  ;|   :    :|  ,   / |   :    |
+`--''                   '--'      `--'---'   \   \ .'     :  \  \\   \  /  ---`-'   \   \  /
+                                              `---`        \  ' ; `----'             `----'
+                                                            `--`
+${AnsiColor.BRIGHT_RED}:: ${AnsiColor.CYAN}第一次使用请修改 ${AnsiColor.BRIGHT_YELLOW}configs ${AnsiColor.CYAN}文件夹下的配置文件
+${AnsiColor.BRIGHT_RED}:: ${AnsiColor.BRIGHT_GREEN}Author: ${AnsiColor.BRIGHT_BLUE}${concat.author} ${concat.github}
+${AnsiColor.BRIGHT_RED}:: ${AnsiColor.BRIGHT_GREEN}Github: ${AnsiColor.BRIGHT_BLUE}${spring.application.name} ${concat.repository}
+${AnsiColor.BRIGHT_RED}:: ${AnsiColor.BRIGHT_GREEN}Version: ${AnsiColor.BRIGHT_BLUE}${concat.version}
+${AnsiColor.BRIGHT_RED}:: ${AnsiColor.BRIGHT_GREEN}Created: ${AnsiColor.BRIGHT_BLUE}${concat.created}
+${AnsiColor.DEFAULT}

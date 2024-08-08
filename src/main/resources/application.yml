@@ -1,3 +1,14 @@
 spring:
-    application:
-        name: ArksCycle
+  application:
+    name: ArksCycle
+  main:
+    web-application-type: none
+concat:
+  author: ArcSurge
+  version: v0.0.1
+  created: 2024/08/06
+  github: https://github.com/ArcSurge
+  repository: https://github.com/ArcSurge/ArksCycle
+logging:
+  level:
+    root: debug
